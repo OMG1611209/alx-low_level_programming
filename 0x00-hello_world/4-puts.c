@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
- *  * main - Entry point
- *   * Description: prints "\"Programming is like building a multilingual puzzle"
+ *  * main - my first c programming
+ *   *
  *    * Return: 0
- *     */
+ *    */
 
 int main(void)
 {
