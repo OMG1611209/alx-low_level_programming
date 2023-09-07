@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
- * main - print a C program using printf
+/**
+ * main - Print a string
+ * Description: use printf
  * Return: 0
  */
 

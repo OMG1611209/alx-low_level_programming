@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * main - C program that prints the size of various types
- * Code by Prince Solomon
- * Return: 0
+/**
+ * main - Prints sized of characters
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
