@@ -1,25 +1,26 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - Entry point
- * Description: prints numbers
- * Return: Always 0 (success)
+ * main- Entry point
+ * @void: Null value
+ *
+ * Description: Print numbers from 0 to 9 separated by comma and space
+ * Return: Zero value
  */
+
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = '0'; i <= '9' ; i++)
+	for (n = '0'; n <= '9'; n++)
 	{
-		putchar(i);
-
-		if (i != '9')
+		putchar(n);
+		if (n != '9')
 		{
 			putchar(',');
 			putchar(' ');
-		}
+																							}
 	}
-
 	putchar('\n');
 	return (0);
 }
