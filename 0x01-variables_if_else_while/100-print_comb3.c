@@ -1,30 +1,35 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - Entyr point
- * Description: prints two digits combination
- * Return: Always 0 (success)
+ * main- Entry point
+ * @void: Null value
+ *
+ * Description: Print numbers from 00 to 99
+ * Return: Zero value
  */
+
 int main(void)
 {
-	int c, i;
+		int i = 0;
+		int j;
+		int count = 0;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		for (i = '0'; i <= '9'; i++)
+		while (i <= 8)
+							{
+		j = i + 1;
+		while (j <= 9)
 		{
-			if (c < i)
-			{
-																									putchar(c);
-																									putchar(i);
-
-																									if (c != '8' || (c == '8' && i != '9'))
-																									{
-																																															putchar(',');
-																																															putchar(' ');
-																																														}
+			putchar(i + '0');
+																								putchar(j + '0');
+																								if (count != 44)
+																								{
+																									putchar(',');
+																									putchar(' ');					
 																								}
-		}
+																								j++;
+																								count++;
+																							}
+		i++;
 	}
 	putchar('\n');
 	return (0);
