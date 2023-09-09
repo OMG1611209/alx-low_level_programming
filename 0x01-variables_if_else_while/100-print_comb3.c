@@ -20,15 +20,15 @@ int main(void)
 		while (j <= 9)
 		{
 			putchar(i + '0');
-																								putchar(j + '0');		
-																								if (count != 44)
-																								{
-																									putchar(',');
-																									putchar(' ');					
-																								}
-																								j++;
-																								count++;
-																							}
+			putchar(j + '0');
+			if (count != 44)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			j++;
+			count++
+		}
 		i++;
 	}
 	putchar('\n');
